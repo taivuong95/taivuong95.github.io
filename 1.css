@@ -22,3 +22,30 @@ nav.navbar.navbar-light.bg-faded{
     padding:0;
     height: 105px;
 }
+
+@media (max-width:576px){
+li.nav-item {
+    float: none!important;
+    display: inline;
+}
+
+ul.nav.navbar-nav.float-xs-right {
+    float: none;
+    text-align:  center;
+}
+
+li.nav-item {
+    display:  inline!important;
+}
+
+a.nav-link {
+    line-height:27px;
+    display:inline!important;
+}
+
+a.navbar-brand {
+    display:  block;
+    text-align:  center;
+    width: 100%;
+    }
+}
