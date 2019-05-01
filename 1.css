@@ -84,6 +84,12 @@ nav.navbar.navbar-light.bg-faded {
 @media (max-width:576px){
 	* {}
 
+.tt img {
+    width: 150px;
+    height: 150px;
+    margin-top: 150px;
+}
+
 li.nav-item {
     float: none!important;
     display: inline;
@@ -92,6 +98,12 @@ li.nav-item {
 ul.nav.navbar-nav.float-xs-right {
     float: none;
     text-align: center;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 10px 19px;
+    border-top: 1px solid #d8d8d8;
 }
 
 li.nav-item {
