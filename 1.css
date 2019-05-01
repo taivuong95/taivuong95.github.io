@@ -13,9 +13,44 @@ a.navbar-brand {
     position: relative;
 }
 
-.khoitt1:before {content: "";
-position: absolute;left: 0;top: 0;
-width: 50%;height: 100%;background: #e4555b;}
+.tt{
+    z-index: 2;
+    position: relative;
+    padding-top: 24%;
+}
+
+.tt img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.tt h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color:#fff;
+    margin-bottom: 22px;
+}
+
+.tt p{
+    color:#000;
+    font-size: 16px;
+    line-height: 24px;
+    width:46%;
+    margin:auto;
+    margin-bottom: 34px;
+}
+
+
+.tt .nuthire.btn.btn-primary{
+    width: 180px;
+    background: #000;
+    color: #fff;
+    border:none;
+    border-radius: 0px;
+}
+
+.khoitt1:before {content: "";position: absolute;left: 0;top: 0;width: 50%;height: 100%;background: #e4555b;z-index: 1;}
 
 body,html {
     width: 100%;
