@@ -168,6 +168,10 @@
       bottom: 67%;
       margin-left: -2px;
   }
+
+  .commentfacebook{
+      text-align: center;
+  }
   
   @media (max-width: 576px) {
     * {

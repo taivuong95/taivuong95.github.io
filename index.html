@@ -13,7 +13,9 @@
 </head>
 
 <body>
-
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous"
+		src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3&appId=308048456550201&autoLogAppEvents=1"></script>
 
 	<div class="menutop">
 		<nav class="navbar navbar-light bg-faded navbar-fixed-top">
@@ -37,7 +39,7 @@
 						<a class="nav-link" href="#">Thông tin liên hệ</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Comment</a>
+						<a class="nav-link cm" href="#">Comment</a>
 					</li>
 
 
@@ -103,10 +105,12 @@
 				<!-- het cot 4/1 -->
 
 				<div class="col-sm-4 cot2_3">
-					<img src="https://images.unsplash.com/photo-1549888497-d378bfc66c57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid">
+					<img src="https://images.unsplash.com/photo-1549888497-d378bfc66c57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+						alt="" class="img-fluid">
 				</div>
 				<div class="col-sm-4 cot3_3">
-					<h2 class="tieudecap2 text-sm-left  text-xs-center">Quá trình <span class="dam">làm việc</span> </h2>
+					<h2 class="tieudecap2 text-sm-left  text-xs-center">Quá trình <span class="dam">làm việc</span>
+					</h2>
 					<div class="khoittnho text-sm-left text-xs-center">
 						<h3 class="tieudecap3">
 							Học đại học
@@ -130,6 +134,23 @@
 						<span class="mota">LorOdit eaque iusto harum obcaecati ad corrupti. Harum doloremque,
 							fugi</span>
 						<p>Sint quas, adipisci cum voluptates dolores quae sunt sed quo aperiam molestias? Ab?</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- het khoi kn -->
+
+	<div class="khoicomment" id="phanhoi">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="text-xs-center">Phản hồi</h1>
+					<div class="commentfacebook">
+						<div class="fb-comments"
+							data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width=""
+							data-numposts="5"></div>
 					</div>
 				</div>
 			</div>
